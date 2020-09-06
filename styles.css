@@ -1,0 +1,92 @@
+body{
+  font-size: 28px;
+}
+form{
+  margin-left: 30px;
+}
+.logo_img{
+  height: 150px;
+  width: 300px;
+  margin-left: 30%
+}
+.margin50{
+  margin-left: 210px;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-weight: bolder;
+}
+table{
+  border-collapse:separate;
+    border-spacing:50px 0;
+}
+.footer {
+  color: #14b1ab;
+  padding: 30px;
+  background-image: linear-gradient(90deg, blue , white, red);
+  text-align: center;
+}
+.btn{
+  font-size: 35px;
+}
+.button{
+  text-align: center;
+}
+
+#app{
+  font-family: sans-serif;
+  display: grid;
+  margin-left: 36%;
+}
+
+.base-timer {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+.base-timer__svg {
+  transform: scaleX(-1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: grey;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: round;
+  transform: rotate(90deg);
+  transform-origin: center;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+  color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+  color: orange;
+}
+
+.base-timer__path-remaining.red {
+  color: red;
+}
+
+.base-timer__label {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 38px;
+}
